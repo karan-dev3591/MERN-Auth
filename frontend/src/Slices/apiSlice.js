@@ -5,5 +5,5 @@ const baseQuery = fetchBaseQuery({baseUrl: ''});
 export const apiSlice = createApi({
     baseQuery,
     tagTypes:['User'], //cache data
-    endpoints:(builder) => ({}), //gt all the endpoint API's
+    endpoints:() => ({}), //gt all the endpoint API's
 })
